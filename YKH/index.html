@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>저는 유경환입니다.</title>
+    <style>
+      ul.first {
+        display: flex;
+        position: fixed;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+      }
+      .container {
+        width: 600px;
+        height: 700px;
+      }
+      .first.container {
+        background-color: red;
+      }
+      .second.container {
+        background-color: blue;
+      }
+      .third.container {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <ul class="first">
+        <li>
+          <!-- 파일이름, 웹사이트 주소 -->
+          <a href="#first">to first</a>
+        </li>
+        <li>
+          <a href="#second">to second</a>
+        </li>
+        <li>
+          <a href="#third">to third</a>
+        </li>
+      </ul>
+    </header>
+    <h1>저는 유경환입니다.</h1>
+    <div class="container">hi</div>
+    <div class="container first" id="first">1</div>
+    <!-- 클래스 1개 만들때 -->
+    <!-- 클래스 2개 만들때 -->
+
+    <div class="container second" id="second">2</div>
+    <div class="container third" id="third">3</div>
+    <ul>
+      <li>
+        <a href="https://www.youtube.com/">유튜브</a>
+      </li>
+      <li>
+        <a href="https://www.naver.com/">네이버</a>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <a href="zh.html">취미</a>
+      </li>
+      <li>
+        <a href="zg.html">좋아하는것</a>
+      </li>
+      <li>
+        <a href="zr.html">연애연결</a>
+      </li>
+    </ul>
+  </body>
+  <!-- 태그.클래스이름, .클래스이름 클래스이름 2개 이상일때 -->
+</html>
