@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+/* *{} 별 모든것포함 */
+body {
+  margin: 0;
+}
+
+.wrap {
+  width: 1200px;
+  border: 2px solid black;
+}
+.header {
+  width: 100%;
+  border: 2px solid red;
+  /* box-sizing을줄때wrap의 보더때문에(1200-2-2) 1196  따라서 빨간색 보더가 삐져나옴 그래서 width에 100퍼센트를 붙임*/
+  /* height: 200px; */
+  /* vertical-align : middle; 수직 정렬 */
+  padding: 50px 0;
+  text-align: center;
+  /* 글자를 가운데 정렬하려면 높이빼고 패팅 글자정렬 */
+}
+.menu {
+  font-size: 20px;
+  padding: 0 20px;
+}
+.menu:hover {
+  /* 마우스커서가 위에 올라오면 동작  */
+  cursor: pointer;
+  color: red;
+}
+.hot {
+  list-style-type: none;
+  /* none 스타일 사용 x */
+  font-size: 25px;
+  line-height: 50px;
+  /* 글자사이 간격 */
+}

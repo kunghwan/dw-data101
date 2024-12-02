@@ -9,8 +9,10 @@ body {
   /* padding-left: 50px;
   padding-top: 50px; 박스 안쪽으로 넣는경우 1(가운데)*/
 
-  /* padding-left: 50px; */
-  /* margin-left: 50px; */
+  padding-left: 50px;
+  padding-top: 50px;
+  box-sizing: border-box;
+  /* 빨간박스의 크기를 고정 */
 }
 .box1_child {
   width: 300px;
@@ -19,4 +21,12 @@ body {
   /* margin-left: 50px;
   margin-top: 50px; */
   /* 자식 도형안에 마진을 잘쓰지않는다 */
+}
+.box2 {
+  border: 1px solid red;
+  width: 300px;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px 0;
+  /*텍스트 가운데 위아래 20 좌우 0  글자에 줄간격*/
 }
