@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+.box1 {
+  width: 400px;
+  height: 200px;
+  background: red;
+  /* padding-left: 50px;
+  padding-top: 50px; 박스 안쪽으로 넣는경우 1(가운데)*/
+
+  /* padding-left: 50px; */
+  /* margin-left: 50px; */
+}
+.box1_child {
+  width: 300px;
+  height: 100px;
+  background: blue;
+  /* margin-left: 50px;
+  margin-top: 50px; */
+  /* 자식 도형안에 마진을 잘쓰지않는다 */
+}
