@@ -52,17 +52,16 @@ body {
 }
 /* 메인 밑에 있는 img태그만선택 */
 .footer {
-  width: 100%;
-  height: 200px;
+  padding: 100px;
   background: gray;
-  border: 1px solid black;
 }
 .addr {
   color: white;
-  padding-left: 60px;
-  padding-top: 60px;
+  font-size: 30px;
 }
+
 .make {
   color: yellow;
-  padding-left: 80%;
+  text-align: right;
+  font-size: 20px;
 }
