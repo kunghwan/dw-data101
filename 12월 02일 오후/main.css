@@ -1,9 +1,11 @@
 * {
   box-sizing: border-box;
+  /* padding 크기제한 */
 }
 /* *{} 별 모든것포함 */
 body {
   margin: 0;
+  /* 전체크기 제한 width height 영향 x */
 }
 
 .wrap {
