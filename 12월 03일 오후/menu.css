@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+}
+.header {
+  width: 1000px;
+  margin: 0 auto;
+  /* 텍스트를 브라우저 가운데에 위치  너비를 줘야함*/
+  background: #aaa;
+  color: white;
+  font-size: 25px;
+  /* 상속 : ul li 태그까지 물려줌 */
+}
+.menu {
+  display: inline-block;
+  /* inline블록 줘야 높이갖고 글자들을 한줄로 만들수있음 */
+  padding: 15px 30px;
+}
+.menu:hover {
+  background: white;
+  color: #888;
+  border-radius: 8px;
+}
