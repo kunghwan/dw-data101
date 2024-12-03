@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+.box1 {
+  width: 1000px;
+  height: 50px;
+
+  border-radius: 8px;
+  background: blue;
+  padding: 10px 0;
+}
+.a:hover {
+  cursor: pointer;
+  color: red;
+}
+.a {
+  color: white;
+  padding: 0 10px;
+}
+.box2 img {
+  margin-top: 10px;
+  border-radius: 8px;
+  width: 52%;
+}
+.box3 {
+  list-style-type: none;
+  /* margin-left: 5px; */
+}
+.b {
+  border-radius: 6px;
+  background: red;
+  margin-top: 30px;
+}
+.c {
+  border-radius: 6px;
+  background: red;
+  margin-bottom: 30px;
+}
+.d {
+  border-radius: 6px;
+  background: red;
+  margin-top: 30px;
+}
+
+.box4 {
+  text-align: right;
+}
+.box5 > img {
+  margin-left: 1000px;
+}
