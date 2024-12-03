@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#main {
+  width: 1000px;
+}
+.section {
+  width: 400px;
+}
+.section.box2 {
+  width: 100%;
+}
+.text1 {
+  margin-left: 50px;
+  /* padding-left:50px; 해당태그의 크기 키우는거 */
+}
+.text2 {
+  width: 400px;
+  margin-left: 490px;
+}
