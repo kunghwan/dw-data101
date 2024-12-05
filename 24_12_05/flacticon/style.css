@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* reset.css 검색 후 복붙 */
+/* header {
+  width: 1000px;
+  display: flex;
+}
+.wrap {
+  border: 1px solid;
+  background: salmon;
+  border-radius: 8px;
+  display: flex;
+}
+h1 {
+  background: forestgreen;
+  text-align: center;
+}
+ul {
+  display: flex;
+} */
+header,
+ul,
+.wrap {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+ul {
+  list-style-type: none;
+}
+header {
+  background-color: red;
+  /* justify-content: space-between; */
+  height: 60px;
+}
+header button {
+  color: whitesmoke;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+button {
+  background-color: transparent;
+}
+
+header > .wrap {
+  border: 1px solid white;
+  justify-content: space-between;
+  width: 100%;
+}
+header img {
+  width: 20px;
+  height: 20px;
+}

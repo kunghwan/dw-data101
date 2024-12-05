@@ -1,0 +1,20 @@
+div.img {
+  border: 2px solid tomato;
+  position: relative;
+}
+div.img .ab {
+  position: absolute;
+}
+div.img h1 {
+  top: 30px;
+  left: 100px;
+  /* top이 bottom 보다 우선순위 left가 right보다 우선순위 */
+}
+div.img div {
+  top: 90px;
+  left: 100px;
+}
+div.img img {
+  width: 100%;
+  /* object-fit: cover; */
+}
