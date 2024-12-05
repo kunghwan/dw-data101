@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* 내가한거 주석처리 */
+}
+#header {
+  width: 1200px;
+  background: blue;
+  position: relative;
+}
+.menu {
+  font-size: 30px;
+  color: white;
+  width: 200px;
+  background: black;
+  /* display: inline-block; */
+  /* position: relative; */
+  padding: 25px 0;
+  /* 내가 추가안한거 */
+  /* absolute(높이영역 x)만하면 헤더의 높이가 없어짐 */
+  text-align: center;
+}
+#h {
+  position: relative;
+  left: 40px;
+}
+#i,
+#p,
+#s,
+#d {
+  position: absolute;
+  top: 0;
+}
+#i {
+  left: 270px;
+}
+#p {
+  left: 500px;
+}
+#s {
+  left: 730px;
+}
+#d {
+  right: 40px;
+}
+#sub {
+  position: absolute;
+  background: gray;
+  top: 90px;
+  /* display: none; */
+  height: 0px;
+  transition: height 3s ease;
+  /* transition조건 : position은 어떤거든 노상관 display : none;을 주석처리 */
+  /* 변하는 과정 */
+}
+#p:hover #sub {
+  display: block;
+  height: 200px;
+}
+/* 자식태그나 형제태그에서만 위에같은 형식 가능 */
+/* #i {
+  position: absolute;
+  top: 0;
+}
+#p {
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+#s {
+  position: absolute;
+  top: 0;
+  left: 640px;
+}
+#d {
+  position: absolute;
+  top: 0;
+  left: 850px;
+} */
