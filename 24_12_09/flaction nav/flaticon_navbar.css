@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+body {
+}
+nav {
+  background-color: whitesmoke;
+  width: 160px;
+  height: 100vh;
+  /* vh - 화면높이 vw - 전체넓이*/
+  /* padding을 20을 주면 원하는 200너비할려면 width를 160을줘야함 */
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+}
+
+nav button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  height: 30px;
+  font-weight: bold;
+}
+nav hr {
+  margin: 10px;
+}
+ul.auth {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+button.auth {
+  background-color: green;
+  border-radius: 8px;
+  text-align: center;
+  color: white;
+}
+
+button.login {
+  border: 1px solid lightgray;
+  background-color: white;
+  color: black;
+}
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(77, 51, 51, 0.26);
+}
+
+/* div.nav {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  background-color: whitesmoke;
+  width: 160px;
+  padding: 20px;
+}  .bg를 nav안에 넣을때*/

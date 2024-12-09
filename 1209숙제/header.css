@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header,
+.a {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+header {
+  background: blue;
+}
+button {
+  border: none;
+  cursor: pointer;
+  color: black;
+  font-size: 15px;
+  margin: 0 auto;
+  background: none;
+  padding: 20px 10px;
+}
+button:hover {
+  color: white;
+}
+img {
+  width: 50px;
+  height: 40px;
+  cursor: pointer;
+  padding: 10px 0px;
+}
+#list {
+  justify-content: space-between;
+  margin-right: 170px;
+}
