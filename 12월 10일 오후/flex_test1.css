@@ -1,0 +1,63 @@
+.flex1 {
+  display: flex;
+  padding-left: 20px;
+  background: blue;
+}
+
+.flex-item1 {
+  background: yellow;
+  /* height: 85px; */
+  padding: 15px 10px;
+}
+.flex-item2 {
+  background: green;
+  /* height: 85px; */
+  padding: 15px 10px;
+}
+.flex-item3 {
+  background: red;
+  /* height: 85px; */
+  padding: 15px 10px;
+}
+.flex-item4 {
+  background: orange;
+  /* height: 85px; */
+  padding: 15px 10px;
+}
+.flex2 {
+  background: blue;
+  display: flex;
+  padding: 20px 0;
+  /* 높이주고 align item주는 방법도있음 */
+  align-items: center;
+}
+/* item2 {
+  padding: 30px 20px;
+} */
+.yellow {
+  background: yellow;
+  width: 100px;
+  padding: 70px 0px;
+  padding-left: 50px;
+}
+.red {
+  background: red;
+  width: 100px;
+  padding: 70px 0px;
+  padding-left: 50px;
+}
+.gray {
+  background: gray;
+  width: 130px;
+  padding: 53px 0px;
+  padding-left: 15px;
+}
+.brown {
+  background: brown;
+  width: 100px;
+  padding: 70px 0px;
+  padding-left: 50px;
+}
+.item5:nth-child(3) {
+  font-size: 40px;
+}

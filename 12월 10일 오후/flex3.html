@@ -5,6 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>flex3</title>
     <link rel="stylesheet" href="flex3.css" />
+    <!-- div.item{$}중괄호 안에 문구 넣어주는거 -->
+    <!-- wrap은 너비를 안가지면(부모가) 반응형으로 3줄짜리가 2줄될수도있다
+    row상태에서는 동작되지만 열을 바꿔주면 동작실행이 잘안됨(flex-direction) 
+    높이주면 되긴하는데 잘안됨
+    -->
   </head>
-  <body></body>
+  <body>
+    <!-- flex-wrap: wrap; 여러줄 표현  -->
+    <div id="wrap1">
+      <div class="item">1aa</div>
+      <div class="item">2aa</div>
+      <div class="item">3aa</div>
+      <div class="item">4aa</div>
+      <div class="item">5aa</div>
+      <div class="item">6aa</div>
+      <div class="item">7aa</div>
+      <div class="item">8aa</div>
+      <div class="item">9aa</div>
+      <div class="item">10aa</div>
+    </div>
+  </body>
 </html>
