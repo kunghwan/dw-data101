@@ -1,14 +1,20 @@
-.orange {
+#wrap1 .orange {
   background: orange;
 }
-.green {
+#wrap1 .green {
   background: green;
+
+  align-self: start;
 }
-.blue {
+#wrap1 .blue {
   background: blue;
+
+  align-self: end;
 }
-.pink {
+#wrap1 .pink {
   background: pink;
+
+  align-self: start;
 }
 .item {
   height: 100px;
@@ -23,4 +29,77 @@
   height: 800px;
   border: 1px solid black;
   justify-content: space-evenly;
+}
+#wrap2 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+#wrap2 .orange {
+  background: orange;
+}
+#wrap2 .green {
+  background: green;
+  order: 1;
+}
+#wrap2 .blue {
+  background: blue;
+  order: 3;
+}
+#wrap2 .pink {
+  background: pink;
+  order: 2;
+}
+#wrap3 {
+  display: flex;
+  height: 200px;
+  flex-direction: column;
+  align-items: center;
+}
+#wrap3 .item1 {
+  flex-grow: 1;
+}
+#wrap3 .item1:nth-child(1) {
+  flex-grow: 1;
+}
+#wrap3 .item1:nth-child(2) {
+  flex-grow: 3;
+}
+#wrap3 .item1:nth-child(3) {
+  flex-grow: 1;
+}
+#wrap3 .item1:nth-child(4) {
+  flex-grow: 1;
+}
+#wrap3 .orange {
+  background: orange;
+}
+#wrap3 .green {
+  background: green;
+}
+#wrap3 .blue {
+  background: blue;
+}
+#wrap3 .pink {
+  background: pink;
+}
+#wrap4 {
+  display: flex;
+}
+#wrap4 .item1 {
+  flex-basis: 150px;
+}
+#wrap4 .orange {
+  background: orange;
+}
+#wrap4 .green {
+  background: green;
+  /* flex-grow: 1; */
+  flex-shrink: 0;
+}
+#wrap4 .blue {
+  background: blue;
+}
+#wrap4 .pink {
+  background: pink;
 }
