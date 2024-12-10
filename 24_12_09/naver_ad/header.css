@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  background: black;
+  padding: 0 5px;
+  width: calc(100vw - 10px);
+  /* 패팅이나 마진값 *2해서 뺴줌 */
+  display: flex;
+  justify-content: space-between;
+}
+header button {
+  height: 50px;
+  border: none;
+  background: transparent;
+  color: gold;
+  cursor: pointer;
+  padding: 0 5px;
+}
+ul {
+  display: flex;
+  column-gap: 10px;
+}
+ul button.title {
+  font-size: 20px;
+  font-weight: 900;
+}
