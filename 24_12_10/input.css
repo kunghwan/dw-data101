@@ -1,0 +1,38 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  max-width: 300px;
+  border: 1px solid;
+  text-align: left;
+}
+.input form {
+  display: flex;
+}
+.input form button.b {
+  border-radius: 0;
+  border: none;
+  height: 40px;
+  background: rgb(60, 185, 60);
+  color: white;
+  cursor: pointer;
+  padding: 0 20px;
+}
+.input form input {
+  border-radius: 0;
+  border: 1px solid lightgray;
+  border-right: 0;
+  outline: none;
+  padding-left: 10px;
+  flex: 1;
+}
+.input form input:focus {
+  border-color: rgb(60, 185, 60);
+}
+.input form input::placeholder {
+  color: red;
+}
+.input label {
+  color: gray;
+  font-size: 12px;
+}

@@ -23,7 +23,7 @@ header button {
   cursor: pointer;
   padding: 0 5px;
 }
-ul {
+header ul {
   display: flex;
   column-gap: 10px;
 }
